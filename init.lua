@@ -1,7 +1,7 @@
 atl_server_join_message = {}
 atl_server_join_message.modpath = minetest.get_modpath("atl_server_join_message")
-atl_server_join_message.join_msg_color = "#28b91c"
-atl_server_join_message.leave_msg_color = "#e21717"
+atl_server_join_message.join_msg_color = "#e2e117"
+atl_server_join_message.leave_msg_color = "#ba1010"
 
 function atl_server_join_message.load_file(path)
     local status, err = pcall(dofile, path)
